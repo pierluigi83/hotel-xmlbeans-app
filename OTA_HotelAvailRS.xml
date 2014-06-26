@@ -1,0 +1,152 @@
+<OTA_HotelAvailRS Version="3.14" SequenceNmbr="634713874285654630" TransactionIdentifier="63471387274096478616" PrimaryLangID="en" TimeStamp="2012-04-30T12:54:57.000+02:00" xmlns="http://www.opentravel.org/OTA/2003/05">
+  <POS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Source>
+      <RequestorID Type="5" ID="010004">
+        <CompanyName TravelSector="CC" CompanyShortName="EMINDS"/>
+      </RequestorID>
+      <BookingChannel Type="7"/>
+    </Source>
+  </POS>
+  <Success/>
+  <Profiles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ProfileInfo>
+      <Profile ProfileType="16">
+        <Customer>
+          <PersonName NameType="5">
+            <GivenName>010004</GivenName>
+            <Surname>010004</Surname>
+          </PersonName>
+        </Customer>
+      </Profile>
+    </ProfileInfo>
+  </Profiles>
+  <RoomStays MoreIndicator="1">
+    <RoomStay SourceOfBusiness="1">
+      <RoomTypes>
+        <RoomType RoomTypeCode="@S" NumberOfUnits="1" InvBlockCode="LE" ReqdGuaranteeType="1">
+          <RoomDescription>
+            <Text>DUS EXCLUSIVE</Text>
+          </RoomDescription>
+          <AdditionalDetails>
+            <AdditionalDetail Type="39">
+              <DetailDescription>
+                <Text>100</Text>
+              </DetailDescription>
+            </AdditionalDetail>
+          </AdditionalDetails>
+        </RoomType>
+        <RoomType RoomTypeCode="@S" NumberOfUnits="1" InvBlockCode="UL" ReqdGuaranteeType="1">
+          <RoomDescription>
+            <Text>DE LUXE DOUBLE ROOM SINGLE USE</Text>
+          </RoomDescription>
+          <AdditionalDetails>
+            <AdditionalDetail Type="39">
+              <DetailDescription>
+                <Text>100</Text>
+              </DetailDescription>
+            </AdditionalDetail>
+          </AdditionalDetails>
+        </RoomType>
+      </RoomTypes>
+      <RatePlans>
+        <RatePlan RatePlanCode="@S" RatePlanID="BB" BookingCode="99" RatePlanName="LE">
+          <RestrictionStatus Status="Open"/>
+        </RatePlan>
+        <RatePlan RatePlanCode="@S" RatePlanID="BB" BookingCode="99" RatePlanName="UL">
+          <RestrictionStatus Status="Open"/>
+        </RatePlan>
+      </RatePlans>
+      <RoomRates>
+        <RoomRate RoomTypeCode="@S" RatePlanType="1" RatePlanID="BB" InvBlockCode="LE" RatePlanCode="BB">
+          <Rates>
+            <Rate GuaranteedInd="false" RateMode="STD" UnitMultiplier="1">
+              <Base AmountBeforeTax="232.05" AmountAfterTax="232.05" CurrencyCode="EUR" DecimalPlaces="2">
+                <Taxes>
+                  <Tax Code="IC" Percent="0.01" DecimalPlaces="2" CurrencyCode="EUR">
+                    <TaxDescription Name="STD">
+                      <Image/>
+                      <Text/>
+                      <URL/>
+                      <ListItem/>
+                    </TaxDescription>
+                  </Tax>
+                </Taxes>
+              </Base>
+              <AdditionalGuestAmounts>
+                <AdditionalGuestAmount AgeQualifyingCode="10">
+                  <Amount AmountBeforeTax="232.05" AmountAfterTax="232.05" CurrencyCode="EUR" DecimalPlaces="2"/>
+                </AdditionalGuestAmount>
+              </AdditionalGuestAmounts>
+              <Fees>
+                <Fee Type="Inclusive" DecimalPlaces="2" CurrencyCode="EUR" Percent="0.01" Amount="0"/>
+                <Fee Type="Exclusive" DecimalPlaces="2" CurrencyCode="EUR" Code="1" Amount="0.00"/>
+              </Fees>
+              <Discounts>
+                <Discount DiscountCode="1">
+                  <DiscountReason>
+                    <Text>PRENOTA PRIMA</Text>
+                  </DiscountReason>
+                </Discount>
+              </Discounts>
+            </Rate>
+          </Rates>
+        </RoomRate>
+        <RoomRate RoomTypeCode="@S" RatePlanType="1" RatePlanID="BB" InvBlockCode="UL" RatePlanCode="BB">
+          <Rates>
+            <Rate GuaranteedInd="false" RateMode="STD" UnitMultiplier="1">
+              <Base AmountBeforeTax="215.90" AmountAfterTax="215.90" CurrencyCode="EUR" DecimalPlaces="2">
+                <Taxes>
+                  <Tax Code="IC" Percent="0.01" DecimalPlaces="2" CurrencyCode="EUR">
+                    <TaxDescription Name="STD">
+                      <Image/>
+                      <Text/>
+                      <URL/>
+                      <ListItem/>
+                    </TaxDescription>
+                  </Tax>
+                </Taxes>
+              </Base>
+              <AdditionalGuestAmounts>
+                <AdditionalGuestAmount AgeQualifyingCode="10">
+                  <Amount AmountBeforeTax="215.90" AmountAfterTax="215.90" CurrencyCode="EUR" DecimalPlaces="2"/>
+                </AdditionalGuestAmount>
+              </AdditionalGuestAmounts>
+              <Fees>
+                <Fee Type="Inclusive" DecimalPlaces="2" CurrencyCode="EUR" Percent="0.01" Amount="0"/>
+                <Fee Type="Exclusive" DecimalPlaces="2" CurrencyCode="EUR" Code="1" Amount="0.00"/>
+              </Fees>
+              <Discounts>
+                <Discount DiscountCode="1">
+                  <DiscountReason>
+                    <Text>PRENOTA PRIMA</Text>
+                  </DiscountReason>
+                </Discount>
+              </Discounts>
+            </Rate>
+          </Rates>
+        </RoomRate>
+      </RoomRates>
+      <GuestCounts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <GuestCount AgeQualifyingCode="10" Age="32" Count="1"/>
+      </GuestCounts>
+      <TimeSpan Duration="P1N" Start="2012-11-19" End="2012-11-20">
+        <EndDateWindow EarliestDate="2012-11-19" LatestDate="2012-11-19+01:00"/>
+      </TimeSpan>
+      <DepositPayments>
+        <GuaranteePayment PaymentCode="31"/>
+      </DepositPayments>
+      <BasicPropertyInfo HotelName="HOTEL RELAIS SANTA CROCE" HotelCityCode="FLR" HotelCode="6279654" ChainCode="APL" HotelCodeContext="HFIRELASCD" BrandCode="HTL">
+        <Address>
+          <CityName>Firenze</CityName>
+          <CountryName Code="IT">ITALIA</CountryName>
+        </Address>
+        <Award Rating="5"/>
+      </BasicPropertyInfo>
+      <TPA_Extensions>
+        <GuestCounts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="">
+          <GuestCount AgeQualifyingCode="10" BirthDate="1980-01-01" RPH="1"/>
+        </GuestCounts>
+      </TPA_Extensions>
+    </RoomStay>
+  </RoomStays>
+</OTA_HotelAvailRS>
