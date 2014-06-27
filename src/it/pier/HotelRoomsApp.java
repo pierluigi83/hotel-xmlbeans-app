@@ -30,10 +30,10 @@ public class HotelRoomsApp
 		String xmlPath = "OTA_HotelAvailRS.xml";
 		OTAHotelAvailRS hotel = xmlRead(xmlPath);
 		RoomStays roomStays =  hotel.getRoomStays();
-		RoomStayType.RoomTypes roomTypes = roomStays.getRoomStayArray(0).getRoomTypes();
 		RoomStay roomStay = roomStays.getRoomStayArray(0);
+		RoomStayType.RoomTypes roomTypes = roomStay.getRoomTypes();
 		String hotelName = roomStay.getBasicPropertyInfo().getHotelName();
-		System.out.println(" il nome dell\' hotel è : " + hotelName);
+		System.out.println(" il nome dell\' hotel ï¿½ : " + hotelName);
 		RoomRates roomRates = roomStay.getRoomRates();
 		for (RoomTypeType roomType : roomTypes.getRoomTypeArray())
 		{
